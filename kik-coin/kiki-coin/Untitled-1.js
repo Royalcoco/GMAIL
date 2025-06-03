@@ -1,8 +1,5 @@
-npm install -g firebase-tools
-firebase login
-firebase init
 $ npm install -g firebase-tools
-$ dataconnect.yaml
+dataconnect.yaml
 npm install -g firebase-tools
 this.gbar_=this.gbar_||{};(function(_){var window=this;
 try{
@@ -507,5 +504,40 @@ $ npm install -g firebase-tools
 $ npm install -g firebase-tools
 dataconnect.yaml
 npm install -g firebase-tools
+npm install -g firebase-tools
+firebase login
+firebase init
 firebase deploy
+npm install firebase
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD8iIE7Oti-o58zsmkqb7hUm_NtfrmC0LU",
+  authDomain: "asset-6c4c8.firebaseapp.com",
+  databaseURL: "https://asset-6c4c8-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "asset-6c4c8",
+  storageBucket: "asset-6c4c8.firebasestorage.app",
+  messagingSenderId: "767559961980",
+  appId: "1:767559961980:web:78fbe97b450de69c3f28f9",
+  measurementId: "G-ZJE61YN15Y"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+import { getStorage } from "firebase/storage";
+
+// ... (your Firebase initialization code)
+
+// Get a reference to the storage service, using the default Firebase App
+const storage = getStorage();
+
+// Alternatively, if you need to specify a different bucket or
+// explicitly name it (though typically you use the default config)
+// const storage = getStorage(firebaseApp, "gs://YOUR_BUCKET_NAME");

@@ -1,0 +1,125 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const WebSocket = require('ws');
+const fs = require('fs');
+const os = require('os');
+const { exec } = require('child_process');
+const path = require('path');
+
+const app = express();
+const PORT = 3000;
+
+app.use(cors());
+app.use(bodyParser.json());
+
+// --- Auth simple ---
+const allowedIPs = new Set(['127.0.0.1']); // à compléter selon réseau
+const VALID_TOKENS = new Set(['token123']); // exemples de tokens
+
+function getLocalIP() {
+  const nets = os.networkInterfaces();
+  for (const name of Object.keys(nets)) {
+    for (const net of nets[name]) {
+      if (net.family === 'IPv4' && !net.internal) return net.address;
+    }
+  }
+  return '127.0.0.1';
+}
+
+function checkAuth(req) {
+  const token = req.headers['x-auth-token'];
+  const ip = req.ip || req.connection.remoteAddress;
+  return VALID_TOKENS.has(token) && allowedIPs.has(ip);
+}
+
+// --- Extension multi-OS pour la détection périphérique + entrées/sorties ---
+function detectPeripheralsAndPorts() {
+  const platform = os.platform();
+
+  let devices = [];
+  if (platform === 'win32') {
+    // Simuler récupération devices Windows (ex: via WMIC, powershell)
+    devices = ['usb1', 'usb2', 'diskEditor'];
+  } else if (platform === 'linux') {
+    // Simuler devices Linux
+    devices = ['/dev/usb1', '/dev/sda1', 'editorDisk'];
+  } else if (platform === 'darwin') {
+    // macOS devices simulés
+    devices = ['disk1', 'usbDrive', 'editorDisk'];
+  }
+
+  // Logique entrée/sortie selon ta spécification
+  // 1 entrée qui se double → 2 entrées
+  // +3 sorties → 3 sorties
+  const inputPorts = 2; 
+  const outputPorts = 6; // 3x2 pour sortie * 2 ?
+
+  return { devices, inputPorts, outputPorts };
+}
+
+// --- Analyse du signal (ADSL) simulé ---
+function analyzeSignal(signalData) {
+  // Extrait variables dans signal, calcul et renvoi info
+  // signalData: un objet JSON simulé pour exemple
+  // Par exemple on multiplie base64 par 2 si conditions remplies
+
+  if (!signalData) return null;
+
+  // Exemple simplifié
+  let processed = {};
+  if (signalData.base64) {
+    let len = signalData.base64.length;
+    processed.multiplied = len * 2;
+  }
+  if (signalData.ports) {
+    processed.inputs = signalData.ports.inputs;
+    processed.outputs = signalData.ports.outputs;
+  }
+  return processed;
+}
+
+// --- WebSocket pour push et apprentissage ---
+const pushDir = './push_files';
+if (!fs.existsSync(pushDir)) fs.mkdirSync(pushDir);
+
+const wss = new WebSocket.Server({ port: PORT + 1 });
+
+wss.on('connection', ws => {
+  ws.on('message', message => {
+    try {
+      const data = JSON.parse(message);
+      const authorIP = getLocalIP();
+
+      if (!data.token || !VALID_TOKENS.has(data.token)) {
+        ws.send(JSON.stringify({ error: 'Non autorisé' }));
+        return;
+      }
+
+      if (data.content) {
+        // Analyse signal possible
+        const signalResult = analyzeSignal(data.signal || null);
+
+        const fileName = `push_${Date.now()}_${authorIP.replace(/\./g, '_')}.json`;
+        const record = {
+          author: authorIP,
+          timestamp: Date.now(),
+          content: data.content,
+          signalAnalysis: signalResult,
+          devicesInfo: detectPeripheralsAndPorts(),
+          status: 'validé',
+          executable: false
+        };
+
+        fs.writeFileSync(`${pushDir}/${fileName}`, JSON.stringify(record, null, 2));
+        ws.send(JSON.stringify({ message: 'Push sauvegardé avec analyse signal', signalResult }));
+      }
+    } catch (e) {
+      ws.send(JSON.stringify({ error: 'Erreur dans le traitement' }));
+    }
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`Serveur REST en écoute sur http://localhost:${PORT}`);
+});

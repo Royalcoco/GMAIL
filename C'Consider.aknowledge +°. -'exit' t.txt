@@ -1,0 +1,296 @@
+C://'Consider.aknowledge +°.: -'exit' to exit the program
+print("Welcome to the program!")
+while True: 
+    user_input = input("Enter a number: ")
+    if user_input == "exit":
+        break
+    try:
+        user_input = int(user_input)
+        print(f"The number is {user_input}")
+    except ValueError:
+        print("Please enter a valid number")
+        
+        try input("Enter a number: ")
+        except ValueError:
+            print("Please enter a valid number")
+            continue :def online.request valid on registred user
+            class online ascii :def online.request valid on registred user
+            class online ascii :def online.request valid on registred user
+            class online ascii :def online.request valid on registred user
+            class online ascii :def online.request valid on registred user
+            class online ascii :def online.request valid on registred user
+            def online.request valid on registred user open '(searchsite)':Web'store.,'searchsite'
+        FIELDNAME = models.OneToOneField(control.connect '-(access.C#[{variable}])')connect.contrôle. -'access.C#[{variable}]'.
+        FIELDNAME = models.OneToOneField(control.connect '-(access.C#[{variable}])')connect.contrôle. -'access.C#[{variable}]'.
+        FIELDNAME = models.OneToOneField(control.connect '-(access.C#[{variable}])')connect.contrôle. -'access.C#[{variable}]'.
+        FIELDNAME = models.OneToOneField(control.connect '-(access.C#[{variable}])')connect.contrôle. -'access.C#[{variable}]'.
+        FIELDNAME = models.OneToOneField(control.connect '-(access.C#[{variable}])')connect.contrôle. -'access.C#[{variable}]'.
+        vars.value: 0
+        class classError(.modifie:-GeneratorExit:exit@classmodel(models.Model):
+        
+            def __str__(self):
+                pass
+        
+            class Meta:
+                db_table = ''
+                managed = True
+                verbose_name = 'classError'.modifie:-GeneratorExit:exit@(
+                verbose_name_plural = 'classErrors.modifie:-GeneratorExit:exit@('
+                db_table = ''
+                managed = True
+                verbose_name = 'classError'.modifie:-GeneratorExit:exit@('variable').vars['classError'] = classError 'classifiedError'
+                verbose_name_plural = 'classErrors.modifie:-GeneratorExit:exit@('
+
+-------------------------------------------
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Error>/</acements>: (Optional.boxes)</
+bocument.format means the document ================================================================= <Error>/</Error
+document.format means share the same {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+manuel-src = {% for {{ STATIC_URL }} in (ctrl_-object.construc -'(input value_off-desgeneration-',;) -exploitation.bowser-src.value type of'  %}
+  
+{% endfor %}
+endfor %} access template {{ STATIC_URL }} /'{{ STATIC_URL }}='{{ STATIC_URL }} from direct access pass by direct access pass in {{ <STATIC_URL class="ebrevation volume street">
+<STATIC_URL>https://s3.amazonaws.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+url.append in order to progress secur.of <input type="frame/shot">
+<video src="">input choice to order to <command class="principe.(f.exe)'"></video>
+</STATIC_URL>
+<STATIC_URL>https://s3.amazonaws.com/</STATIC_URL>
+<STATIC_UR>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<STATIC_URL>static.{{ STATIC_URL }}.com/</STATIC_URL>
+<video>{{ STATIC_URL }}</video>
+<frameset>xF42rSSK36VPiYAUUAKU6wj8QEm5BxoEUEPP3LKxq24v3KpRTRLqxaH0jq6M2Pzjg3d0A
+    direct <button type="submit"><from:>
+    <button type="submit"><from:>
+    <button type="submit"><from:>
+
+        >>> {{ STATIC_URL }}.com/</STATIC_URL>.com/</button>
+        <button type="submit"><from:> indicate    tm1-ui-rpt-row-element="rawData"  tm1-dimension="Dimension Name"
+           tm1-dimension="Dimension Name"
+              tm1-dimension="Dimension Name"
+                tm1-dimension="Dimension Name"
+
+                undefinded inclined <samp>
+                <samp>undefinded inclined</samp>
+                <samp>undefinded inclined</samp>
+                <header class="header"> ljk.{% ifnotequal 0 or value false <menu type="toolbar">
+                    menu type="toolbar"> <details><tm1-ui-dbr-hidden
+                       tm1-instance="framework"
+                       tm1-cube="Cube Name"
+                       tm1-elements='Comma separated element list'
+                       ng-model="model"
+                       tm1-data-decimal="0"
+                       > '>initial.deployed</tm1-ui-dbr-hidden></details>
+                    <details><tm1-ui-dbr-hidden
+                          tm1-instance="framework"
+                          tm1-cube="Cube Name"
+                          tm1-elements='Comma separated element list'
+                          ng-model="model"
+                          tm1-data-decimal="0"
+                          > '>initial.deployed</tm1-ui-dbr-hidden></details>
+                    </tm1-ui-dbr-hidden></details>
+                </menu> %}
+                  
+                {% ifnotequal %}</header>
+                </samp>
+
+-------------------------------
+
+    </button>
+</frameset>
+<Code>AccessDenied</Code>
+<Message>Access Denied</Message>
+<RequestId>KCTT2ABMEGX0KR1P</RequestId>
+<HostId>t2n9D3QkROaN+sSX/xF42rSSK36VPiYAUUAKU6wj8QEm5BxoEUEPP3LKxq24v3KpRTRLqxaH0jq6M2Pzjg3d0A==</HostId>
+</Error>
+
+-------------------------------
+
+select(idx) >¤'(.Index)'}.c(r)image'.develo. =dev.tools default image capture mode faireplay(.Index)
+{-"dev.tools.try" : "dev.tools.try if not} -(hostname._8_dev)
+    ]' -' : "dev.tools.try if not g(hostname._8_) '^*'".develo{("dev.tools.try" : "dev.tools)}
+        try" : "dev.tools.try if not g /dev/null
+        loaded_model / {-(hostname._8_dev. create_key focused on host.devicename)}. : "dev.Distingued buy.devicename and devicecomponent
+        -²,_-(hostname._8_dev. create_key)
+            create_key preprocess_data , gulivery to kolom , dugs to kolom and device applying OBJ'(max_length. integer on devicecomponent, max_length').
+some_function (`\` {host}. 'dev data process MediaStreamTrackGenerator on import_key_error_disgute
+object import_key_error_disgute on import_key_error_disgute
+OBJ ={host.detail}
+
+-------------------------------
+
+fuh on 10
+duys big'tor on 10
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.lines as mlines
+import matplotlib.ticker as mticker
+import matplotlib.colors as mcolors
+import matplotlib.cm as cm
+import matplotlib as mpl
+import matplotlib.gridspec as gridspec
+import matplotlib.colors as mcolors
+import matplotlib.cm as cm
+
+xam = °C /buyers=100
+x = np.linspace(0, 10, 100)
+y = np.exp(x)
+y2 = np.exp(0.5*x)
+y3 = np.exp(1.5*x)
+y4 = np.exp(2*x)
+y5 = np.exp(2.5*x)
+y6 = np.exp(3*x)
+y7 = np.exp(3.5*x)
+y8 = np.exp(4*x)
+y9 = np.exp(4.5*x)
+support* = np.exp(5*x) for x in x ='partum.'slice in x].complex(.import super.dropna(.in).-{"dir.left".abs}
+fig, ax = plt.subplots()
+ax.plot(x, y, label='y = exp(x)')
+ax.plot(x, y2, label='y = exp(0.5x)')
+ax.plot(x, y3, label='y = exp(1.5x)')
+ax.plot(x, y4, label='y = exp(2x)')
+ax.plot(x, y5, label='y = exp(2.5x)')
+ax.plot(x, y6, label='y = exp(3x)')
+__builtins__of.__builtins__ = ['y = exp(3.5x)']
+ax.plot(x, y8, label='y = exp(4x)')
+tuy = np.exp(4.5*x)
+tui = np.exp(5*x)
+tuy = tui - x[tuple. where tui defined in x]
+tuy ° open by passcom'bytearray' in x
+]°_,duys = np.exp(5*x)
+ax.plot(x, y9, label='y = exp(4.5x)')
+(.) numpy (.)
+f'x superdwoof(.)intialized bomboclat
+
+------------------------------------
+
+pl(-and_then_then_then_then_then_then_then
+
+------------------------------------
+
+zip.ex'cor@-' + name,focused on_delete.ori;/::'(Si'orange'ginal.Config 'Figuration." (-center more exécuté '@param +'@Network ' +work ' value+)." -org°: everyday, every +1 hour
+réOrientation translate.ori;/::'(Si'orange'ginal.Config ' into.config, param.focused on_delete.ori;/::'(Si'orange'g.googlecore.excel,today
+
+-------------------------------------
+
+inert_comm°pathThrow.token =°pageY ib , By commandId((-°if (also) {
+    background color : new.features.by @also.Network;hue.HBO<javascript.decline.Authors to add feature on complement.overload.features by acceptCharset. addRule to ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.choice_colorimetrie:__1PSAPISID
+    add&process_cryptoblock marginTop FAILED_PRECONDITION to unifie backgroundPosition and cookieEnabled.indeterminate.config.denied.architecture.mspin_googcolor_small to ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 changedTouches, by textur_on.backgroundColor@Net.features.getComputedStyle of guaranted absolute.from_file/fE.$C('^n/':) -> createScript from tar_kov'event
+
+------------------------------------
+ c+ return , to add server\socialhost./parameter.explorer@net so if an Android.//changedTouches for apple.comif :(command'(if)) (socialhost;AIzaSyCbsbvGCe7C9mCtdaTycZB2eUFuzsYKG_E.TouchNavigate for explorer-RegExp')' Inc@contentWindow.format/transform.-@"supply@___gapisync.info@net."command//:system.outline.readable for same url-Encode.@net)"
+           
+
+---------------------------------------
+
+            <script nonce="BpMqfX_4XT1Iu03cpD_rNw">
+                (function(f.x;windows.'(opened.src' ./*_half.Pathway entry : throw"#{down_scripture@chartset utf_8"82.@net .]'use strict'window 'on-cmd' #".//http.:/request/k-download-.}, -d = [style]
+                    c.aft_counter = d;
+
+  if url @message-error.utm_source.on.addEventListener from : (input).://html.sr'c-altKey.transform.in :(transitionend.from preventDefault.')
+                strong/:/removeListener.in:(_ && t.length) translateX.to iframe '-_refcode.ATH.(*-(_-$m.-_\.](p)) in (trans'(_¨-'_/i/.neutral°.:('_-tion$'end.'-_.\|./'((J)._''peg)']
+            {
+
+---------------------------------------
+
+and ://#'sourceMappingURL=classifier.js.map in_d_.(h$ ./ + 3_months + else 
+TUR.combobox.@tu@'-(netbank@neutra(-.'lisation° @commbank.area : zip_code.premium_upgrade_modal_desktop_tap_storage._-(.i_friend_mail@'.-__lpform_email :'@execUnsafeLocalFunction.call : STORAGE.)
+
+        
+--------------------------------------
+
+        inderoy://url.responder.in.tasks.AnalyzerAutofillControlsChanged.in backboard://aurland.in order to import_manager_upload_viewed.in.cmd'[premium'(-all_.sheet.@toUTCString.reverbe.byAP)]
+        inboard include optimizer_config.on.install config'request_on-'(-import {label} from "confi"
+        AyOYPCidxr188Ne8mcM4vnrAPL7lHBs9ExKQvGLHAr4c4DQ9B2tvvA7qQr2SPZA9NOr0vetHVD2SUrC8T9lAvVIj6D2emr68IS9WvDe8zL3TdRe9iRuuvaIByT3BKds9fVXBPOwEcDx6o208zKlCPek9ML53DhA.respond.by9PPLsJO744Lqg)
+        resultFunc (in_app_notifications_desktop.alp1.-'@core.xPNkPn8//deltaMode://after-Desktop://url.f('function f(cookie) {
+            config.page = action.deeplearn.config.stop.conflict with.requestPermissions.CookiePolicy
+        })
+
+--------------------------------
+# Initialisation
+initialize_excel()
+cipher_suite = store_keys_on_usb()
+sector_drift = derive_secteur()
+if sector_drift is not None:
+    register_and_send_notifications(cipher_suite)
+display_results()
+if (up) {
+    is
+} else {
+    for (let library of @Net) {
+        generate_key to display_results console sector_drift.uptade.fire_wall.communications. (-agenda_capsule_temps.on caption.@openpyxl.for!<.>!/mining_amounts')
+    }
+} 
+
+this._hd = this._hd || {};
+(function(as_maxd) //[ CAM7Vc.CANVAS, @clear!$$$$.,/modalpopup/__wizdispatcher_resolve.path with MafjZe.CODE.WIZ_global_data.@c$a] {
+    var-'(__IS_OWNER.to5Uwf_'window = this . ;(-|next.@ch.(.po)); ;(-try.charCodeAt?for (let keyboard_enter = 0; keyboard_enter < bound; keyboard_enter++) {
+        matchAll KID_FRIENDLY_SEARCH.approved@network
+    } 
+
+--------------------------------------------
+
+pure:[(.')'_import-]_import onMessage.url@.!HTMLMediaElement/DOMContentLoaded/chrome/hour.Date,system./:|\/;ç_è&_c¨c$ = cssText delivery message information PING_CONTENT_AUTOPLAY_DETECTION of uploaded.document
+       
+
+------------------------------------------
+
+zip.AB)M(F.Z._-B.05/RB:b-transition:@-b(label).'(ck)ground-color 100ms,visibility 0s 0s;visibility: inherit;
+    colgroup.-background-color: if rgba = 0,0,0,0.6 .m(.oz.|-art.;
+(opera.factor.://html-ifgroup://host-context/,.-(manifest.hutch))
+
+-------------------------------------------
+
+body.[_-,.;|_ï.in.Ö-put(e.),tex.tarea,-select color:_{ #background} -_: none;
+}
+
+--------------------------------------------
+
+@keyframes-q.(li)-c#on.t(..;/ai.-ï(.ner-rotate_from_,.:transform:-rotate(number.@_(¨$*-¨$*))img.compressed ruby./waffle.://export:window'source.//http.(s.<script-\.:/)> :link-url.@container
+    }
+
+----------------------------------------------
+
+{iframe.a(.l.i;://first-line-.item.p|.//:add.in(.g-bottom: img-px;:/read-write-margin-bottom: jpeg.-(://html_px@charset;[d.is-console://host.hover-context./:-'(x'required.html.@import surface.x'//avaible.keyboard//input/form button.//:_-@charset
+play: inline-block;
+}-console://host.hover-context./:-'(x'required.html.@import surface.x'//avaible.keyboard//input/form button.//:_-@charset
+
+------------------------------------------------
+
+mouseenter.isImmediatePropagationStopped.toElement,focusinfocus.fromCharCode ']-|(radioValue!; *- > 11111px)
+    
+;
+
+{'"-(,..?/:///..,.?.._^pöîÜûpïô.?.::/?.,ÄäÜüÏïÖöûûûù/"'

@@ -1,0 +1,38 @@
+$ npm install -g firebase-tools
+$ firebase init
+$ firebase deploy
+
+@echo off
+setlocal enabledelayedexpansion
+
+REM Définir le chemin du fichier dans Documents
+set "filename=%USERPROFILE%\Documents\new_element.html"
+
+REM Contenu HTML à écrire (exemple bouton simple)
+set "htmlContent=<!DOCTYPE html>
+<html lang=""fr"">
+<head><meta charset=""UTF-8""><title>Nouvel Élément</title></head>
+<body>
+<button onclick=""alert('Bonjour !')"">Clique moi</button>
+</body>
+</html>"
+
+REM Écrire le contenu dans le fichier
+(
+echo %htmlContent%
+) > "%filename%"
+
+REM Ouvrir le fichier dans Bloc-notes
+start notepad "%filename%"
+
+REM Attendre 5 secondes (simulateur de "temps utilisateur")
+timeout /t 5 /nobreak > nul
+
+REM Fermer Bloc-notes (tue la tâche notepad.exe)
+taskkill /im notepad.exe /f > nul 2>&1
+
+echo Procédure d'ajout d'élément HTML terminée et fichier sauvegardé dans Documents.
+pause
+$ npm install -g firebase-tools
+$ firebase init
+$ firebase deploy

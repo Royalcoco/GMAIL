@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="1.0.0" />
+  <PropertyGroup>
+    <Name>in</Name>
+    <ProjectGuid>{E34B173A-53C8-4649-92F9-54FE5D5D2B92}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\kik-coin.sqlproj">
+      <Name>kik-coin</Name>
+      <Project>{6253D57C-A6BA-49C1-95CF-98E8B7FF5893}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>kikcoin.k</DatabaseSqlCmdVariable>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="kikcoin.k">
+      <Value>$(SqlCmdVar__1)</Value>
+      <DefaultValue>kik-coin</DefaultValue>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>
+npm install firebase
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+$ npm install -g firebase-tools
+$ firebase init
+$ firebase deploy
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD8iIE7Oti-o58zsmkqb7hUm_NtfrmC0LU",
+  authDomain: "asset-6c4c8.firebaseapp.com",
+  databaseURL: "https://asset-6c4c8-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "asset-6c4c8",
+  storageBucket: "asset-6c4c8.firebasestorage.app",
+  messagingSenderId: "767559961980",
+  appId: "1:767559961980:web:78fbe97b450de69c3f28f9",
+  measurementId: "G-ZJE61YN15Y"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+import { getStorage } from "firebase/storage";
+
+// ... (your Firebase initialization code)
+
+// Get a reference to the storage service, using the default Firebase App
+const storage = getStorage();
+
+// Alternatively, if you need to specify a different bucket or
+// explicitly name it (though typically you use the default config)
+// const storage = getStorage(firebaseApp, "gs://YOUR_BUCKET_NAME");

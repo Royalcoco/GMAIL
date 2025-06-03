@@ -1,0 +1,1 @@
+permet un modèle defensif qui permet de crée des block analytique sur les conversations pour less surprotéger tout en ayant la possibilité d'exploiter un outcome venant de la source
